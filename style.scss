@@ -1,0 +1,262 @@
+$ted: #fff;
+
+@import "reset";
+//npm install -g sass
+
+#header {
+  padding: 15px 0;
+  border-bottom: 1px solid grey;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__menu {
+      padding: 0 25px;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      color: rgba(31, 46, 53, 0.8);
+    }
+
+    &__select {
+      border: none;
+      padding: 0 25px;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      color: rgba(31, 46, 53, 0.8);
+      outline: none;
+    }
+
+    &__img {
+      padding: 0 10px;
+    }
+  }
+}
+
+#hero {
+  padding: 100px 0;
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__general {
+      width: 600px;
+
+      &__title {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 133%;
+        color: #1F2E35;
+        margin-bottom: 20px;
+
+        &__it {
+          color: #EE4248;
+
+        }
+      }
+
+      &__desc {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #30444E;
+        margin-bottom: 30px;
+      }
+
+      &__btn {
+        padding: 10px 30px;
+        background: #EE4248;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        color: white;
+        cursor: pointer;
+        transition: .4s;
+        border: 1px solid #EE4248;
+
+        &:hover {
+          border: 1px solid #EE4248;
+          background: transparent;
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+#about {
+  background: #F6F6F6;
+  padding: 50px 0;
+
+  .about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__general {
+      width: 520px;
+
+      &__title {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        color: #1F2E35;
+        margin-bottom: 20px;
+
+        &__dw {
+          color: #EE4248;
+        }
+      }
+
+      &__dec {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #30444E;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+#product {
+  padding: 100px 0;
+
+  .product {
+    &__title {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      text-align: center;
+      color: #1F2E35;
+      margin-bottom: 60px;
+    }
+
+    &__general {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__block {
+      width: 300px;
+      height: 350px;
+
+      &__img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+      }
+
+      &__title {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        color: #EE4248;
+        margin-bottom: 20px;
+      }
+
+      &__desc {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        height: 110px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: #30444E;
+      }
+
+      &__btn {
+        padding: 10px 25px;
+        background: #EE4248;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        color: white;
+        cursor: pointer;
+        transition: .4s;
+        border: 1px solid #EE4248;
+
+        &:hover {
+          border: 1px solid #EE4248;
+          background: transparent;
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+#contact {
+  padding: 50px 0;
+
+  .contact {
+    display: flex;
+    align-items: center;
+
+    &__block {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 100px;
+    }
+
+    &__title {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      color: #263238;
+      margin-bottom: 20px;
+    }
+
+    &__desc {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 17px;
+      color: #263238;
+      width: 320px;
+      margin-bottom: 15px;
+    }
+
+    &__item {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      color: #263238;
+      margin-left: -240px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+#footer {
+  background: #EE4248;
+  padding: 20px 0;
+  .footer {
+    &__title {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  }
+}
